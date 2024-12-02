@@ -19,7 +19,9 @@ func abs(val int) int{
 
 func main() {
 	var lefts, rights []int
-	filename := "test_data.txt"
+	//	filename := "test_data.txt"
+
+	filename := "input.txt"
 	file, err := os.Open(filename)
 	if err != nil {
 		panic(err)
@@ -31,7 +33,7 @@ func main() {
 		right, _ := strconv.Atoi(line[1])
 		lefts = append(lefts, left)
 		rights = append(rights, right)
-		fmt.Printf("%v, %v \n", lefts, rights)
+	//	fmt.Printf("%v, %v \n", lefts, rights)
 
 	}
 	defer file.Close()

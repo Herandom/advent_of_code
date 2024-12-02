@@ -10,4 +10,4 @@ At home, did day 1. File IO was the first hurdle but finally figured it out. The
 * File IO
 * no int-abs func
 * sort functions are in-place
-* if-ok statements.
+* if-ok statements

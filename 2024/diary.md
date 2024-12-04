@@ -33,3 +33,5 @@ FIRST TRY WITH REAL DATA WAS SUCCESS BABY!
 * Day 2: 2nd star
 ### Learnings
 * `slices.Delete` makes no sense. Don't use it, just handroll something instead. Addendum: or just make a copy of the slice and then Delete and remove n-indexes from the end. 
+* There is an `...` operator! This should be understood!
+

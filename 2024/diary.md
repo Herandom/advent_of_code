@@ -11,3 +11,15 @@ At home, did day 1. File IO was the first hurdle but finally figured it out. The
 * no int-abs func
 * sort functions are in-place
 * if-ok statements
+
+
+## 2024-12-03
+Started way to late and was distracted since I had stuff to deal with in that ran on a short timer. Stayed up way to late. Main challange was nothing really, just that vectorizing the Day 2 task is waaaay easier than iterating. I feel I can be smarter than this, but I did manage to skip one explicit for loop by calling Min and Max on the slice and multiplying, as well as using Contains.
+
+I don't look forward to day 3 and the file reading. There will be a lot of string appending. Also regex. `No Wastl-dono! Yamete!` 
+### Completed
+* Day 2: 1 start
+### Learnings
+* The `slices` module from stdlib is cool! I used the `Contains`, `Min` and `Max` functions.
+* `~` can not be used in an absolute path, they need to be truely absolute or relative.
+* The `Min` * `Max` trick might actually be useful in other places!

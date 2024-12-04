@@ -23,3 +23,13 @@ I don't look forward to day 3 and the file reading. There will be a lot of strin
 * The `slices` module from stdlib is cool! I used the `Contains`, `Min` and `Max` functions.
 * `~` can not be used in an absolute path, they need to be truely absolute or relative.
 * The `Min` * `Max` trick might actually be useful in other places!
+
+## 2024-12-04
+Late start again, but earlier than yesterday. Only targetting 2nd star of day 2 today, since day 3 is regex and day 4 is a word find. Both will require thinking. 
+I successfully extracted the "is this thing ok" code from task 1, now it is just to brute force.
+
+FIRST TRY WITH REAL DATA WAS SUCCESS BABY!
+### Completed
+* Day 2: 2nd star
+### Learnings
+* `slices.Delete` makes no sense. Don't use it, just handroll something instead. Addendum: or just make a copy of the slice and then Delete and remove n-indexes from the end. 

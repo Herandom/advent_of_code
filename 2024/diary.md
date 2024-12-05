@@ -35,3 +35,13 @@ FIRST TRY WITH REAL DATA WAS SUCCESS BABY!
 * `slices.Delete` makes no sense. Don't use it, just handroll something instead. Addendum: or just make a copy of the slice and then Delete and remove n-indexes from the end. 
 * There is an `...` operator! This should be understood!
 
+
+## 2024-12-05
+FIRST TRY WITH REAL DATA AND REGEX ON TASK 1 BABY!
+
+### Completed
+* Day 3: 1 star
+
+### Learnings
+* Go regex syntax is using google re2, a google implementation of regex or something.
+

@@ -38,6 +38,7 @@ FIRST TRY WITH REAL DATA WAS SUCCESS BABY!
 
 ## 2024-12-05
 FIRST TRY WITH REAL DATA AND REGEX ON TASK 1 BABY!
+Let's not talk about task 2.
 
 ### Completed
 * Day 3: 1 star

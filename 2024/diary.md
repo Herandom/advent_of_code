@@ -65,3 +65,14 @@ For both of Day 4 I did it on first try with real data!
 
 ### Learnings
 * I almost understand how to work with matrixes.
+
+## 2024-12-07
+Saturday! Day 5 task 1 was fun, but I think my solution might make task 2 more difficult. I also don't feel like writing a sorting algorithm so I will skip task 2 for now.
+
+### Completed
+* Day 5: 1st star
+
+### Learnings
+* File reading and shifting between two types of input in one file
+* Slice intersections.Oh god python is easier in this regard.
+

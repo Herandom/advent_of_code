@@ -103,6 +103,27 @@ func search_matrix(matrix [][]string) int {
 	return match
 }
 
+func search_x_mas(matrix [][]string) int {
+	rows := len(matrix)
+	cols := len(matrix[0])
+	re := regexp.MustCompile("MAS|SAM")
+	match := 0
+	for ix := 1; ix < rows-1; ix++ {
+		for jx := 1; jx < cols-1; jx++ {
+			if matrix[ix][jx] == "A" {
+				diag1 := []string{matrix[ix-1][jx-1], matrix[ix][jx], matrix[ix+1][jx+1]}
+				diag2 := []string{matrix[ix+1][jx-1], matrix[ix][jx], matrix[ix-1][jx+1]}
+				diag1_str := strings.Join(diag1, "")
+				diag2_str := strings.Join(diag2, "")
+				if re.MatchString(diag1_str) && re.MatchString(diag2_str) {
+					match++
+				}
+			}
+		}
+	}
+	return match
+}
+
 func task1() {
 	filename := "test_data.txt"
 	filename = "/home/herandom/projects/advent_of_code/inputs/2024/day4.txt"
@@ -119,6 +140,18 @@ func task1() {
 	matches += search_matrix(diag_2)
 	fmt.Println(matches)
 }
+
+func task2() {
+	filename := "test_data.txt"
+	filename = "/home/herandom/projects/advent_of_code/inputs/2024/day4.txt"
+	lines := read_file_to_lines(filename)
+	matches := 0
+	matrix := to_matrix(lines)
+	matches = search_x_mas(matrix)
+	fmt.Println(matches)
+}
+
 func main() {
 	task1()
+	task2()
 }

@@ -49,8 +49,19 @@ Let's not talk about task 2.
 ## 2024-12-07
 Turns out the method for my final few attemps at D3.2 yesterday was sound, I just had messed up the final regex I wrote, so I trimmed a few inputs to many.
 
+For Day 4, a lot of issues with slices and slice-matrixes (matrixes from here on). Basically, I had to write funcions to go from `[]string` to `[][]string` and then write transpose, reverse row and "get diagnonals" functions. Finding the xmas/samx wasdone through regex.
+
+Solution worked out on paper, to see the behaviour and keep track of all of the indexes, (indecies?)
+
+Very late, but it's Friday and I took a 3-4 hour nap after work so it's probably OK. 
+
+Second task went very well, did some more pen-and-paper work to get the index correct. Very happy that I thought to find the A and then just check the diags. Since I had the matrix generating code things went very smooth.
+
+For both of Day 4 I did it on first try with real data!
+
 ### Completed
-* Day3: 1 star
+* Day3: 2nd star
+* Day4: 2 stars
 
 ### Learnings
-
+* I almost understand how to work with matrixes.

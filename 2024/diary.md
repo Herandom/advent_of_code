@@ -36,7 +36,7 @@ FIRST TRY WITH REAL DATA WAS SUCCESS BABY!
 * There is an `...` operator! This should be understood!
 
 
-## 2024-12-06
+## 2024-12-05
 FIRST TRY WITH REAL DATA AND REGEX ON TASK 1 BABY!
 Let's not talk about task 2.
 
@@ -46,7 +46,7 @@ Let's not talk about task 2.
 ### Learnings
 * Go regex syntax is using google re2, a google implementation of regex or something.
 
-## 2024-12-07
+## 2024-12-06
 Turns out the method for my final few attemps at D3.2 yesterday was sound, I just had messed up the final regex I wrote, so I trimmed a few inputs to many.
 
 For Day 4, a lot of issues with slices and slice-matrixes (matrixes from here on). Basically, I had to write funcions to go from `[]string` to `[][]string` and then write transpose, reverse row and "get diagnonals" functions. Finding the xmas/samx wasdone through regex.

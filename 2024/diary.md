@@ -84,3 +84,22 @@ There was also something strange in an if statement, I think I messed up a negat
 * File reading and shifting between two types of input in one file
 * Slice intersections.Oh god python is easier in this regard.
 * You don't need to return slices if you edit them inside of a function!
+
+## 2024-12-08
+I saw some AoC day 7 memes about recursion and `O(2^n)` and `O(4^ n)` scaling, so I got some help with figuring out day 7 part 1. 
+This was needed, because I would not have figured out how to use recursion to generate all possible permutations of the operators without that. 
+I am quite proud about my way of going about the "find all possible operation permutations with replacement". I used it if-ok way of doing thigns from day 1, and simply calculated them only once. 
+
+One tricky part of the unput is that I probably missed one row since I used a dict to store all of the inputs and didn't account for 2 answers to the equation being the same. Oh well, I simply had to make my "check if this is OK" function a lot bigger.
+
+
+### Commpleted 
+* Day 7: 1 star
+
+### Learnings
+* I know to little about recursion and recursive algorithms.
+* Maps to store some data is dangerous.
+
+
+
+

@@ -71,6 +71,12 @@ Saturday! Day 5 task 1 was fun, but I think my solution might make task 2 more d
 
 Day 6 basically worked as I had planned when reading the task at work, using a map to rotate and then just some boundry + `TheHinder` checks. Reminds me of the crystalization java lab, where I learned the hard way about switch/select case statements in Java not breaking, like in the surpringly sensible language VisualBasic
 
+**OH NO! THE SWEDISH HINDER!** For Day 6.2 I had to rewrite the walk code a bit. I actually only kept track of the obstacles and the path inside the matrix, and tracked the guard walking direction outside of it. 
+To see if we are in a loop, I tracked the rotations (ix, jx and post-rotation-direction). Each rotation after the initial 3 or 4 I checked if we had performed the same move once before. Doing a check for the path might have been possible as well, but I'm happy with my way of doing things :)
+
+I did not bother figuring out how to duplicate `[][]string` and just read from file. I think the file reading probably slowed me down a lot. EDIT: tried, instead of reading, to just use the `[]string to [][]string` function for every hinder instead. There was no noticable performance gain. I think creating copies of the matrix could maybe speed things still, but to lazy to figure out how to implement. This task is however very parallizable, like a C-style OpenMP for the for loop would be so easy to get a speed boost.
+
+There was also something strange in an if statement, I think I messed up a negation in an `false & false` statmenet. oops.
 ### Completed
 * Day 5: 1st star
 * Day 6: 1st star

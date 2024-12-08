@@ -69,10 +69,12 @@ For both of Day 4 I did it on first try with real data!
 ## 2024-12-07
 Saturday! Day 5 task 1 was fun, but I think my solution might make task 2 more difficult. I also don't feel like writing a sorting algorithm so I will skip task 2 for now.
 
+Day 6 basically worked as I had planned when reading the task at work, using a map to rotate and then just some boundry + `TheHinder` checks. Reminds me of the crystalization java lab, where I learned the hard way about switch/select case statements in Java not breaking, like in the surpringly sensible language VisualBasic
+
 ### Completed
 * Day 5: 1st star
-
+* Day 6: 1st star
 ### Learnings
 * File reading and shifting between two types of input in one file
 * Slice intersections.Oh god python is easier in this regard.
-
+* You don't need to return slices if you edit them inside of a function!

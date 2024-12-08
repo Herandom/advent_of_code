@@ -79,7 +79,7 @@ I did not bother figuring out how to duplicate `[][]string` and just read from f
 There was also something strange in an if statement, I think I messed up a negation in an `false & false` statmenet. oops.
 ### Completed
 * Day 5: 1st star
-* Day 6: 1st star
+* Day 6: 2 stars
 ### Learnings
 * File reading and shifting between two types of input in one file
 * Slice intersections.Oh god python is easier in this regard.
